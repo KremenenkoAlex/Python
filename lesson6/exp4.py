@@ -48,4 +48,4 @@ work = WorkCar('KAMAZ', 35, 'red', False)
 print('3:\n' + work.go(), work.show_speed(), work.turn('направо'), work.stop())
 
 police = PoliceCar('MERSEDES', 100, 'blue', True)
-print('4:\n' + work.go(), work.show_speed(), work.turn('направо'), work.stop())
+print('4:\n' + police.go(), police.show_speed(), police.turn('направо'), police.stop())
