@@ -5,7 +5,7 @@ class Cell:
     def __add__(self, other):
         return self.param + other.param
 
-    def __sub__(self, other):
+    # def __sub__(self, other):
         return self.param - other.param
 
     def __mul__(self, other):
